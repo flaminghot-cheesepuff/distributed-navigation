@@ -16,7 +16,7 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
   background-color: #e2e2e2;
@@ -24,7 +24,7 @@ header {
 }
 
 header h1 {
-
+ flex-grow: 2;
 }
 
 header p {
@@ -48,4 +48,6 @@ ul li {
 
 header img {
   width: 2rem;
+  order: -1;
+  flex-shrink: 2;
 }
