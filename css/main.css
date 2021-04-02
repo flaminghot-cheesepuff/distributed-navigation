@@ -8,12 +8,18 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #fff;
+  margin: .5rem;
+}
+
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0 1rem;
+  background-color: #e2e2e2;
 }
 
 header p {
@@ -28,4 +34,13 @@ nav ul {
 
 nav a {
   text-decoration: none;
+  color: #0074d9;
+}
+
+ul li {
+  padding: 0;
+}
+
+header img {
+  width: 2rem;
 }
